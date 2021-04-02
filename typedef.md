@@ -1,3 +1,6 @@
+# typedef
+
+```
 // @ts-check
 
 /**
@@ -9,7 +12,6 @@
  * @property {string=}  option
 */
 
-/* to use, place two lines on top of JS file
-*  // @ts-check
-*  ///<reference path="./typedefs.js" />
-*/
+/** @type {MyProject} */
+let proj;
+```
