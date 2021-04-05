@@ -44,7 +44,7 @@ const [result] = await conn.query(`INSERT INTO users (id, name, rank) VALUES ?`,
 
 // insert two or more B
 const listObject = [ {id: 98, name: 'John Doe II', rank: 2}, {id: 99, name: 'Jane Doe II', rank: 4} ];
-const [result] = await conn.query(`INSERT INTO users SET ?`, [listObject]);
+const [result] = await conn.query(`INSERT INTO users SET ?`, listObject);
 
 // result = ResultSetHeader {
 //   fieldCount: 0, affectedRows: 2,
